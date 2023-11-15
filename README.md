@@ -1,1 +1,2 @@
 # Portfolio-Project
+My Portfolio project with a video introduction, bio and a link to the projects page. The Projects page contain the title that links to the repositories and the description of the projects. I've added bootstrap for the navigation bar and an animation at the 'About me' section below my image. You can see the animation if you refresh the page staying at the About me section. I also used grid on the Projects page so the project details look organized.
