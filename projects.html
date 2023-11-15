@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+</head>
+<body>
+    
+<link rel="stylesheet" href="projects.css">
+<script src=".projects.js"></script>
+
+    <!-- Bootstrap Navigation bar  -->
+    
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+      <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+              <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Rama's Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html"><i class="far fa-clone"></i>Home</a>
+            </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="projects.html"><i class="far fa-address-book"></i>Projects</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+    
+
+    <div class="grid">
+        <aside>Project Title & Github Repository Link</aside>
+        <article>Project Description</article>
+
+        <aside><a href="https://github.com/rama-jey/PacMen-Exercise">Pacmen Exercise</a></aside>
+        <article>This is a simple game to see the PacMan moving across your browser.
+            We used the setTimeout function and called the function Run() to run every 200ms. This makes
+            the PacMan move every 200ms.The function CheckPageBounds is written to reverse the PacMan direction
+            when it hits the window innerWidth. If you run the html file, you will see a PacMan image on your screen. Click on to it
+            and you can see the PacMan moving across the browser. Once it hits the right end of your screen, it bounces back and starts
+            moving towards the other direction.
+        </article>
+
+        <aside><a href="https://github.com/rama-jey/Eye-Exercise">Eye Exercise</a></aside>
+        <article>This eye exercise makes the eyeball to look at the cursor wherever we move the mouse on the screen.
+            The styles.css file contains the position of the eyes and the balls with the background color.
+            The div for one eye-ball is copied to create the next eye and that created two eyes. If you ownload all the files and
+            run the html file in your Chrome browser(recommended), you will see a pair of eyes on your screen.
+            Try moving your cursor on the screen with mouse. You can notice the eye balls are watching your cursor
+            wherever the cursor moves.
+        </article>
+
+        <aside><a href="https://github.com/rama-jey/Real-Time-Bus-Tracker">Real Time Bus Tracker</a></aside>
+        <article>This project is to track the movement of the bus in real time. I used the API key from radar.com
+            to fetch and display the map, set up latitude and longitude points for the bus stops and wrote a
+            move funtion to make the map pointer move and stop on all those points (bus stops). Download all the files
+            (HTML, CSS and JS) and open the HTML file in your Chrome browser (recommended). Once the window is loaded, you can see
+            the map pointer moves and stops on all the bus stops between MIT and Harvard.
+        </article>
+    </div>
+
+    <footer class="footer text-faded text-center py-5">
+        <div class="container"><p class="m-0 small">Copyright &copy; Rama's portfolio Website 2023</p></div>
+    </footer>
+    
+</body>
+</html>
